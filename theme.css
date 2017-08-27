@@ -1,0 +1,55 @@
+.brand-logo{
+	font-family:  roboto;
+		font-size:  21px !important;
+	font-style: italic;
+	opacity: .7;
+}
+body{
+background-color: #0079bf; 
+}
+nav{
+	height: 40px !important;
+	line-height: 30px !important;
+}
+ .main-container{
+ 	display: flex;
+ 	flex-direction:row;
+ 	justify-content:space-around;
+ 	margin-top: 100px;
+
+ }
+ .inputbox{
+ 	background-color: #0D47A1;
+ 	color:#0D47A1;
+
+ }
+ .add-task{
+ 	width: 15%;
+
+ }
+ .todo{
+ 	width:15%;
+ 	background-color: #E2E4E6;
+ 	height: 100%;
+ }
+ .inprogress{
+ 	width: 15%;
+ 	background-color: #E2E4E6;
+ 	height: 100%;
+ }
+ .inreview{
+ 	width:15%;
+ 	background-color: #E2E4E6;
+ 	height: 100px;
+ }
+ .done{
+ 	width: 15%;
+ 	background-color: #E2E4E6;
+ 	height: 100px;
+ }
+ .cards-heading{
+ 	font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+ 	font-weight: bold;
+ 	margin: 0px !important;
+ 	padding: 5px;
+ }
