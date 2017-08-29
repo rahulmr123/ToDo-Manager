@@ -33,23 +33,23 @@
 			</div>
 			<div class="todo">
 				<h2 class="cards-heading"> Todo</h2>
-				<ul class="todo__wrapper" id="todo_holder" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">
+				<ul class="todo__wrapper" id="todo_holder" ondrop="drop_handler(event,this);" ondragover="dragover_handler(event);">
 
 				</ul>
 			</div>
 			<div class="todo inprogress">
 				<h2 class="cards-heading"> InProgress</h2>
-				<ul class="inprog" id="target" ondrop="drop_handler(event);" ondragover="dragover_handler(event);"></ul>
+				<ul class="inprog" id="target" ondrop="drop_handler(event,this);" ondragover="dragover_handler(event);"></ul>
 
 			</div>
 			<div class="todo inreview">
 				<h2 class="cards-heading"> InReview</h2>
-				<ul id="target2" ondrop="drop_handler(event);" ondragover="dragover_handler(event);"></ul>
+				<ul id="target2" ondrop="drop_handler(event,this);" ondragover="dragover_handler(event);"></ul>
 
 			</div>
 			<div class="todo done">
 				<h2 class="cards-heading"> Done</h2>
-				<ul id="target3" ondrop="drop_handler(event);" ondragover="dragover_handler(event);"></ul>
+				<ul id="target3" ondrop="drop_handler(event,this);" ondragover="dragover_handler(event);"></ul>
 
 			</div>
 
