@@ -10,7 +10,7 @@
 .style1{
 	width:100%;
 	height: 10px;
-	background-color: ##1565c0;
+	background-color: #1565c0;
 
 }
 body{
@@ -57,10 +57,11 @@ overflow: auto;
  }
  ul li{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: space-between;
 	 background-color: white;
 	 margin: 6px;
+	 border-radius: 11px;
  }
  ul{
 	 min-height: 400px;
